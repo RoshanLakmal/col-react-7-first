@@ -81,14 +81,27 @@
 // 	}
 // }
 
+// class App extends React.Component{
+	
+// 	render(){
+// 		return(
+// 			<div>
+// 				<Friend 
+// 					name="Roshan"
+// 					hobbies= {["Anime","Cricket","Movie"]}
+// 				/>
+// 			</div>
+// 		);
+// 	}
+// }
+
 class App extends React.Component{
 	
 	render(){
 		return(
 			<div>
-				<Friend 
-					name="Roshan"
-					hobbies= {["Anime","Cricket","Movie"]}
+				<Hello 
+					to="Ringo"
 				/>
 			</div>
 		);

@@ -1,4 +1,7 @@
 class Hello extends React.Component {
+	static defaultProps = {
+		from: 'Lazy'
+	}
 	render() {
 		return (
 			<div>
